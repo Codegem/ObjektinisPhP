@@ -18,7 +18,7 @@ $user2->role = "User";
 <?php foreach($user->showProfile() as $info) :?>
     <li><?=$info?></li>
 <?php endforeach ?>
-<?php foreach($user2->showProfile() as $info2) :?>
-    <li><?=$info2?></li>
+<?php foreach($user2->showProfile() as $info) :?>
+    <li><?=$info?></li>
 <?php endforeach?>
 </ul>
